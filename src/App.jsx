@@ -1,4 +1,5 @@
-
+import MasConsultadosSection from "./components/MasConsultadosSection"
+import NovedadesSection from "./components/NovedadesSection"
 function App() {
 
   return (
@@ -129,68 +130,81 @@ function App() {
           <img src="pacto-fiscal-banner.jpg" alt="Nuevo pacto fiscal banner" title="Nuevo pacto fiscal" className="w-100 mt-4 border-3 rounded rounded-2 d-md-none" />
           <img src="pacto-fiscal-banner-lg.jpg" alt="Nuevo pacto fiscal banner" title="Nuevo pacto fiscal" className="w-100 mt-4 mb-5 border-3 rounded rounded-2 d-none d-md-block" />
         </div>
-        <section>
-          <h2 className="fw-bold mt-4 mb-3">Más Consultados</h2>
-          <div className="container text-center">
-            <div className="row row-cols-2 row-cols-md-3 row-cols-lg-3">
+
+        <MasConsultadosSection />
+        <NovedadesSection />
+      </div>
+      <footer className="bg-info text-warning mt-3">
+        <div className="container">
+          <div className="row p-5">
+            <div className="col-md-4">
               <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/clave-fiscal.svg" width={80} height={80} alt="" />
-                  Clave Fiscal
-                </a>
+                <div className="mb-2 p-1">
+                  <a href="/" className="d-flex justify-content-start ">
+                    <img src="/logo_afip_blanco.png" width={128} height={50} alt="" />
+                  </a>
+                </div>
+                <div className="d-flex gap-1 align-items-center">
+                  <a href="">
+                    <img src="RedesFooter/twitter.svg" width={34} height={34} alt="Logo Twitter" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/instagram.svg" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/facebook.svg" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/linkedin.svg" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/youtube.svg" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/whatsapp.svg" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="RedesFooter/telegram.svg" alt="" />
+                  </a>
+                </div>
               </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/monotributo.svg" width={80} height={80} alt="" />
-                  Monotributo
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/presentaciones.svg" width={80} height={80} alt="" />
-                  Presentaciones Digitales
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/abc.svg" width={80} height={80} alt="" />
-                  ABC - Consultas Frecuentes
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/micrositios.svg" width={80} height={80} alt="" />
-                  Micrositios
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/vencimientos.svg" width={80} height={80} alt="" />
-                  Vencimientos
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/guias.svg" width={80} height={80} alt="" />
-                  Guías paso a paso
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/aportes.svg" width={80} height={80} alt="" />
-                  Aportes en línea
-                </a>
-              </div>
-              <div className="col">
-                <a href="" className="d-inline-flex d-md-flex flex-md-row flex-column col gap-md-3 align-items-center fw-bold">
-                  <img src="MasConsultados/formularios.svg" width={80} height={80} alt="" />
-                  Formularios
-                </a>
+            </div>
+            <div className="col-md-8">
+              <div className="col container row gap-3">
+                <div className="col border-end">
+                  <div className="d-flex justify-content-center ">
+                    <ul style={{ listStyleType: 'none' }}>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Institucional</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Denuncias</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Transparencia Activa</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Selección de personal</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col border-end">
+                  <div className="d-flex justify-content-end">
+                    <ul style={{ listStyleType: 'none' }}>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Derechos y obligaciones</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Aviso legal</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Excombatientes de Malvinas</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="d-flex justify-content-end">
+                    <ul style={{ listStyleType: 'none' }}>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Facturación apócrifa</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Transparencia Activa</a></li>
+                      <li className="mb-2"><a href="" className="link-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Constatación de comprobantes</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </footer>
     </>
   )
 }
