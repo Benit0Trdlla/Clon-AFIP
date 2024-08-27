@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.7 126.4">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .75px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #242c4f;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #242c4f;
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="formularios">
+    <path class="cls-2" d="m83.7,96.7h-28.46c-2.91,0-5.29-2.33-5.35-5.24l-.04-1.98c-.06-2.74-2.18-4.99-4.91-5.22l-2.7-.23c-2.77-.23-4.91-2.55-4.91-5.34v-40.07c0-2.96,2.4-5.35,5.35-5.35h41.02c2.96,0,5.35,2.4,5.35,5.35v52.71c0,2.96-2.4,5.35-5.35,5.35Z"/>
+    <rect class="cls-4" x="56.8" y="43.68" width="22.09" height=".86" transform="translate(135.7 88.21) rotate(180)"/>
+    <rect class="cls-4" x="56.8" y="46.69" width="22.09" height=".86"/>
+    <rect class="cls-4" x="56.8" y="50" width="22.09" height=".86"/>
+    <rect class="cls-4" x="47.18" y="43.36" width="7.8" height="7.8"/>
+    <rect class="cls-4" x="56.78" y="56.54" width="22.09" height=".86" transform="translate(135.65 113.93) rotate(180)"/>
+    <rect class="cls-4" x="56.78" y="59.55" width="22.09" height=".86"/>
+    <rect class="cls-4" x="56.78" y="62.86" width="22.09" height=".86"/>
+    <rect class="cls-4" x="47.16" y="56.22" width="7.8" height="7.8"/>
+    <rect class="cls-4" x="56.78" y="69.54" width="22.09" height=".86" transform="translate(135.65 139.93) rotate(180)"/>
+    <rect class="cls-4" x="56.78" y="72.55" width="22.09" height=".86"/>
+    <rect class="cls-4" x="56.78" y="75.86" width="22.09" height=".86"/>
+    <rect class="cls-4" x="47.16" y="69.22" width="7.8" height="7.8"/>
+    <path class="cls-3" d="m80.71,85.53c-1.04.27-1.99-.66-1.73-1.7.57-2.34,1.51-5.75,2.6-6.84l15.44-15.44c1.62-1.62,4.26-1.62,5.88,0h0c1.62,1.62,1.62,4.26,0,5.88l-15.44,15.44c-1.04,1.04-4.43,2.06-6.75,2.66Z"/>
+    <rect class="cls-1" x="80.18" y="79.85" width="8.23" height=".74" transform="translate(87.17 196.54) rotate(-135)"/>
+    <path class="cls-4" d="m81.34,85.31c-.29.29-1.62.05-1.91-.24s-.62-.97-.34-1.26.1-.91.39-.62,2.14,1.83,1.85,2.11Z"/>
+  </g>
+  <g id="Capa_3" data-name="Capa 3">
+    <g id="Circulo">
+      <circle class="cls-2" cx="63.29" cy="63.2" r="61.1"/>
+    </g>
+  </g>
+</svg>
