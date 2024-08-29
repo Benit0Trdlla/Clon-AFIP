@@ -8,7 +8,7 @@ export default function NovedadesSection() {
     return (
         <section className="container">
             <h2 className="fw-bold mt-4 mb-3">Novedades</h2>
-            <div className="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 ">
                 {InfoCards.map((card) => (
                     <article className="col mb-3" key={card.Id}>
                         <div className="card mb-3 h-100" style={{ width: '16rem' }}>

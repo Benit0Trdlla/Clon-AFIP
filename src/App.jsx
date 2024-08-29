@@ -1,81 +1,12 @@
+import HeaderAndNav from "./components/HeaderAndNav"
 import MasConsultadosSection from "./components/MasConsultadosSection"
 import NovedadesSection from "./components/NovedadesSection"
+import Footer from "./components/Footer"
 function App() {
 
   return (
     <>
-      <header>
-        <nav className="navbar bg-info">
-          <div className="container d-flex align-items-center">
-            <a className="navbar-brand" href="/">
-              <img src="/logo_afip_blanco.png" alt="Logo de la institución AFIP" width={160} height={60} />
-            </a>
-            <p className="text-white fst-italic d-flex gap-2 align-items-center justify-content-center">
-              <img src="/logo-bandera-escudo.svg" alt="Logo de la República Argentina" width={160} height={40} />
-              <span style={{ color: '#13a2bb' }}>2024</span>
-              <strong> - </strong>
-              Año de la Defensa de la Vida, la Libertad y la Propiedad
-            </p>
-          </div>
-        </nav>
-      </header>
-      <nav className="navbar navbar-expand-md bg-info border-top mt-1">
-        <div className="container fw-semibold">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto gap-3">
-              <li className="nav-item">
-                <a href="#services" className="nav-link text-white">Institucional</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contribuyentes
-                </a>
-                <ul className="dropdown-menu dropdown-menu-end">
-                  <li><a className="dropdown-item" href="#">Autónomos</a></li>
-                  <li><a className="dropdown-item" href="#">Casas particulares</a></li>
-                  <li><a className="dropdown-item" href="#">Futuros contribuyentes</a></li>
-                  <li><a className="dropdown-item" href="#">Monotributo</a></li>
-                  <li><a className="dropdown-item" href="#">Operadores de comercio exterior</a></li>
-                  <li><a className="dropdown-item" href="#">Régimen General</a></li>
-                  <li><a className="dropdown-item" href="#">Relaciones Laborales</a></li>
-                  <li><a className="dropdown-item" href="#">Usuarios Aduaneros</a></li>
-                  <li><a className="dropdown-item" href="#">Viajeros</a></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Turnos
-                </a>
-                <ul className="dropdown-menu dropdown-menu-end">
-                  <li><a className="dropdown-item" href="#">Solicitud</a></li>
-                  <li><a className="dropdown-item" href="#">Dependencias</a></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown-center">
-                <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Ayuda
-                </a>
-                <ul className="dropdown-menu dropdown-menu-end">
-                  <li><a className="dropdown-item" href="#">Aplicativos</a></li>
-                  <li><a className="dropdown-item" href="#">Biblioteca</a></li>
-                  <li><a className="dropdown-item" href="#">Calculadora de intereses</a></li>
-                  <li><a className="dropdown-item" href="#">Consultas Web</a></li>
-                  <li><a className="dropdown-item" href="#">Contactos</a></li>
-                  <li><a className="dropdown-item" href="#">Credencial virtual</a></li>
-                  <li><a className="dropdown-item" href="#">Denuncias</a></li>
-                  <li><a className="dropdown-item" href="#">Formas de pago</a></li>
-                  <li><a className="dropdown-item" href="#">Guías de trámites</a></li>
-                  <li><a className="dropdown-item" href="#">Nomenclador de Actividades</a></li>
-                  <li><a className="dropdown-item" href="#">Reclamos y segurencias</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <HeaderAndNav/>
       <div className="container mt-4">
         <div className="row">
           <div className="col-md-7 px-1">
@@ -134,77 +65,7 @@ function App() {
         <MasConsultadosSection />
         <NovedadesSection />
       </div>
-      <footer className="bg-info text-warning mt-3">
-        <div className="container">
-          <div className="row p-5">
-            <div className="col-md-4">
-              <div className="col">
-                <div className="mb-2 p-1">
-                  <a href="/" className="d-flex justify-content-start ">
-                    <img src="/logo_afip_blanco.png" width={128} height={50} alt="" />
-                  </a>
-                </div>
-                <div className="d-flex gap-1 align-items-center">
-                  <a href="">
-                    <img src="RedesFooter/twitter.svg" width={34} height={34} alt="Logo Twitter" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/instagram.svg" alt="" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/facebook.svg" alt="" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/linkedin.svg" alt="" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/youtube.svg" alt="" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/whatsapp.svg" alt="" />
-                  </a>
-                  <a href="">
-                    <img src="RedesFooter/telegram.svg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-8">
-              <div className="col container row gap-3">
-                <div className="col border-end">
-                  <div className="d-flex justify-content-center ">
-                    <ul style={{ listStyleType: 'none' }}>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Institucional</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Denuncias</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Transparencia Activa</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Selección de personal</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col border-end">
-                  <div className="d-flex justify-content-end">
-                    <ul style={{ listStyleType: 'none' }}>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Derechos y obligaciones</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Aviso legal</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Excombatientes de Malvinas</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="d-flex justify-content-end">
-                    <ul style={{ listStyleType: 'none' }}>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Facturación apócrifa</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Transparencia Activa</a></li>
-                      <li className="mb-2"><a href="" className="link-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Constatación de comprobantes</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }
