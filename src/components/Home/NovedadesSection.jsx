@@ -24,7 +24,7 @@ export default function NovedadesSection() {
                 ))}
             </div>
             <div className="d-flex justify-content-center">
-                <button className="btn btn-secondary text-white px-5 py-2 mt-3 mb-4 justify-content-end">Ver todos</button>
+                <a href="" className="btn btn-secondary text-white px-5 py-2 mt-3 mb-4 justify-content-end">Ver todos</a>
             </div>
         </section>
     )
