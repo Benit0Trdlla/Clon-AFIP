@@ -16,7 +16,7 @@ export default function Footer() {
                         <div className="col">
                             <div className="mb-2 p-1">
                                 <a href="/" className="d-flex justify-content-start ">
-                                    <img src="/logo_afip_blanco.png" width={128} height={50} alt="" />
+                                    <img src="/logo_afip_blanco.png" width={128} height={50} alt="Logo de la institución AFIP" />
                                 </a>
                             </div>
                             <div className="d-flex gap-1 align-items-center">
@@ -28,7 +28,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 d-none d-lg-block">
                         <div className="col container row gap-3">
                             <div className="col border-end">
                                 <div className="d-flex justify-content-center">

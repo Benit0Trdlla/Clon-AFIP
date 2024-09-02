@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function NovedadesSection() {
     const InfoCards = [
         { Id: 1, ImgUrl: 'Novedades/image.jfif', descripcion: 'En el marco del Nuevo Pacto Fiscal, la titular de la AFIP se reunió en los Estados Unidos con su par del IRS.' },
@@ -24,7 +26,7 @@ export default function NovedadesSection() {
                 ))}
             </div>
             <div className="d-flex justify-content-center">
-                <a href="" className="btn btn-secondary text-white px-5 py-2 mt-3 mb-4 justify-content-end">Ver todos</a>
+                <Link to="novedades" className="btn btn-secondary text-white px-5 py-2 mt-3 mb-4 justify-content-end">Ver todos</Link>
             </div>
         </section>
     )
