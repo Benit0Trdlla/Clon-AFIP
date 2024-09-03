@@ -1,16 +1,20 @@
-import { Home, Novedades, PactoFiscal }  from "./pages";
+import { Home, Novedades, PactoFiscal, Articles } from "./pages";
 
 export const routes = [
     {
         path: '/',
-        component: <Home/>,
+        component: <Home />,
     },
     {
         path: '/novedades',
-        component: <Novedades/>,
+        component: <Novedades />,
+    },
+    {
+        path: '/novedades/:articleId',
+        component: <Articles />
     },
     {
         path: '/pactofiscal',
-        component: <PactoFiscal/>
+        component: <PactoFiscal />
     }
 ]

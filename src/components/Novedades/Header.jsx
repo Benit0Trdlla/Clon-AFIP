@@ -16,16 +16,6 @@ export default function Header() {
                     </div>
                 </nav>
             </header>
-            <nav className="navbar navbar-expand-md bg-info border-top mt-1">
-                <div className="container fw-semibold">
-                    <nav aria-label="breadcrumb d-flex">
-                        <ol className="breadcrumb fw-semibold">
-                            <li className="breadcrumb-item text-white"><Link to="/" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Inicio</Link></li>
-                            <li className="breadcrumb-item active text-white" aria-current="page">Novedades</li>
-                        </ol>
-                    </nav>
-                </div>
-            </nav>
         </>
     )
 }

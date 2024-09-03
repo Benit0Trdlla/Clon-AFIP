@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function HeaderAndNav() {
     return (
         <>
             <header>
                 <nav className="navbar bg-info">
                     <div className="container d-flex align-items-center">
-                        <a className="navbar-brand" href="/">
+                        <Link className="navbar-brand" to="/">
                             <img className="img-fluid" src="/logo_afip_blanco.png" alt="Logo de la institución AFIP" width={160} height={60} />
-                        </a>
+                        </Link>
                         <p className="text-white fst-italic d-flex gap-2 align-items-center justify-content-center d-none d-md-block">
                             <img className="img-fluid" src="/logo-bandera-escudo.svg" alt="Logo de la República Argentina" width={160} height={40} />
                             <span style={{ color: '#13a2bb' }}>2024</span>
