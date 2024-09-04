@@ -9,7 +9,7 @@ export default function Footer() {
         { id: 7, img: 'RedesFooter/telegram.svg', href: 'https://t.me/AFIP_Comunica' },
     ]
     return (
-        <footer className="bg-info text-warning mt-3">
+        <footer className="bg-info text-warning">
             <div className="container">
                 <div className="row p-5">
                     <div className="col-md-4">
