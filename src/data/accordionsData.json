@@ -1,0 +1,44 @@
+[
+    {
+        "day": "SAB",
+        "date": "14",
+        "title": "Moratoria",
+        "subtitle": "Condonación de multas e intereses",
+        "accNumber": "One"
+    },
+    {
+        "day": "MIE",
+        "date": "18",
+        "title": "Bienes Personales, Ganancias y Cedular",
+        "subtitle": "Presentación y pago de las declaraciones juradas",
+        "accNumber": "Two"
+    },
+    {
+        "day": "JUE",
+        "date": "19",
+        "title": "REIBP",
+        "subtitle": "Adhesion y pago inicial para sujetos que no regularizaron activos",
+        "accNumber": "Three"
+    },
+    {
+        "day": "LUN",
+        "date": "30",
+        "title": "Régimen de Regularización de Activos",
+        "subtitle": "Etapa 1 - Adhesión y pago inicial",
+        "accNumber": "Four"
+    },
+    {
+        "day": "LUN",
+        "date": "30",
+        "title": "REIBP",
+        "subtitle": "Declaración jurada y pago del saldo para sujetos que no regularizaron activos",
+        "accNumber": "Five"
+    },
+    {
+        "day": "LUN",
+        "date": "30",
+        "title": "REIBP",
+        "subtitle": "Pago inicial para sujetos que regularizaron activos en la etapa 1",
+        "accNumber": "Six"
+    }
+]

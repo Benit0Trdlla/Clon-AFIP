@@ -21,9 +21,9 @@ export default function NovedadesPage() {
             <div className="container">
                 <Slider />
                 <h2 className="fw-bold mt-4 mb-5">Todas las Novedades</h2>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 ">
+                <div className="row d-flex row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 ">
                     {articles.map((card) => (
-                        <article className="col mb-3" key={card.Id}>
+                        <article className="col mb-3 d-flex justify-content-center align-items-center" key={card.Id}>
                             <div className="card mb-3 h-100" style={{ width: '16rem' }}>
                                 <img src={card.imageUrl} className="card-img-top" alt="..." />
                                 <div className="card-body" style={{ minHeight: '150px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>

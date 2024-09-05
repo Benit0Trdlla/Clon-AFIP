@@ -1,36 +1,36 @@
 [
     {
-        "Id": 0,
+        "Id": "0",
         "img": "RedesFooter/twitter.svg",
         "href": "https://twitter.com/afipcomunica"
     },
     {
-        "Id": 1,
+        "Id": "1",
         "img": "RedesFooter/instagram.svg",
         "href": "https://www.instagram.com/afipcomunica/"
     },
     {
-        "Id": 2,
+        "Id": "2",
         "img": "RedesFooter/facebook.svg",
         "href": "https://www.facebook.com/afipcomunica/"
     },
     {
-        "Id": 3,
+        "Id": "3",
         "img": "RedesFooter/linkedin.svg",
         "href": "https://www.linkedin.com/company/afip?originalSubdomain=es"
     },
     {
-        "Id": 4,
+        "Id": "4",
         "img": "RedesFooter/youtube.svg",
         "href": "https://www.youtube.com/channel/UCe0zC5Uf5U1YDDMF3_W-97A"
     },
     {
-        "Id": 5,
+        "Id": "5",
         "img": "RedesFooter/whatsapp.svg",
         "href": "https://www.whatsapp.com/channel/0029VaFz1Ur7z4kXZ888GJ2X"
     },
     {
-        "Id": 6,
+        "Id": "6",
         "img": "RedesFooter/telegram.svg",
         "href": "https://t.me/AFIP_Comunica"
     }
