@@ -1,13 +1,6 @@
+import socials from "../../src/data/socials.json";
 export default function Footer() {
-    const socials = [
-        { id: 1, img: 'RedesFooter/twitter.svg', href: 'https://twitter.com/afipcomunica' },
-        { id: 2, img: 'RedesFooter/instagram.svg', href: 'https://www.instagram.com/afipcomunica/' },
-        { id: 3, img: 'RedesFooter/facebook.svg', href: 'https://es-la.facebook.com/AFIPComunica/' },
-        { id: 4, img: 'RedesFooter/linkedin.svg', href: 'https://www.linkedin.com/company/afip?originalSubdomain=es' },
-        { id: 5, img: 'RedesFooter/youtube.svg', href: 'https://www.youtube.com/channel/UCe0zC5Uf5U1YDDMF3_W-97A' },
-        { id: 6, img: 'RedesFooter/whatsapp.svg', href: 'https://www.whatsapp.com/channel/0029VaFz1Ur7z4kXZ888GJ2X' },
-        { id: 7, img: 'RedesFooter/telegram.svg', href: 'https://t.me/AFIP_Comunica' },
-    ]
+
     return (
         <footer className="bg-info text-warning">
             <div className="container">
@@ -21,7 +14,7 @@ export default function Footer() {
                             </div>
                             <div className="d-flex gap-1 align-items-center">
                                 {socials.map((social) => (
-                                    <a href={social.href} key={social.id} target="_blank">
+                                    <a href={social.href} key={social.Id} target="_blank">
                                         <img src={social.img} width={34} height={34} alt="" />
                                     </a>
                                 ))}

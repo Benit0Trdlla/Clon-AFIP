@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Header from "./Header"
 import Slider from "./Slider"
-import articles from "./articles.json"
+import articles from "../../data/articles.json";
 
 export default function NovedadesPage() {
 

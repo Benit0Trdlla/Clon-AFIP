@@ -1,4 +1,4 @@
-import { Home, Novedades, PactoFiscal, Articles } from "./pages";
+import { Home, Novedades, PactoFiscal, Articles, Vencimientos } from "./pages";
 
 export const routes = [
     {
@@ -16,5 +16,9 @@ export const routes = [
     {
         path: '/pactofiscal',
         component: <PactoFiscal />
+    },
+    {
+        path: '/pactofiscal/vencimientos',
+        component: <Vencimientos />
     }
 ]

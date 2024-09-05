@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-import articles from "../Novedades/articles.json"
+import articles from "../../data/articles.json";
+
 export default function NovedadesSection() {
     return (
         <section className="container">

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Header from "./Header"
 export default function PactoFiscal() {
     const cards = [
@@ -17,9 +18,9 @@ export default function PactoFiscal() {
                         <h1 className="fw-semibold">📅 Agenda 2024</h1>
                         <p className="text-muted">Conocé las principales fechas de vencimiento para cumplir con tus obligaciones.</p>
                     </div>
-                    <button className="btn btn-info mt-2 mt-lg-0">
+                    <Link to={'/pactofiscal/vencimientos'} className="btn btn-info mt-2 mt-lg-0">
                         Ingresar
-                    </button>
+                    </Link>
                 </div>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
                     {cards.map((card) => (
