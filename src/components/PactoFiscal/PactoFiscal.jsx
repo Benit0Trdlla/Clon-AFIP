@@ -14,7 +14,7 @@ export default function PactoFiscal() {
             <div className="container">
                 <img src="pacto-fiscal-banner-lg.jpg" className="w-100 mt-4 mb-5 border-3 rounded rounded-2 img-fluid" alt="" />
                 <div className="d-flex flex-column flex-lg-row align-items-center justify-content-between rounded rounded-2 border border-black p-5">
-                    <div className="">
+                    <div className="text-center text-lg-start">
                         <h1 className="fw-semibold">📅 Agenda 2024</h1>
                         <p className="text-muted">Conocé las principales fechas de vencimiento para cumplir con tus obligaciones.</p>
                     </div>
@@ -22,9 +22,9 @@ export default function PactoFiscal() {
                         Ingresar
                     </Link>
                 </div>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <div className="row d-flex row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
                     {cards.map((card) => (
-                        <article className="col mb-3 mt-3 ms-lg-0" key={card.id} >
+                        <article className="col mb-3 mt-3 ms-lg-0 d-flex justify-content-center align-items-center " key={card.id} >
                             <div className="card mb-3 h-100" style={{ width: '16rem' }}>
                                 <img src={card.img} className="card-img-top" alt={`Imagen de ${card.title}`} style={{ height: '100px', objectFit: 'cover', width: '100%' }} />
                                 <div className="card-body" style={{}}>

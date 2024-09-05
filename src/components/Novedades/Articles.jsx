@@ -30,6 +30,15 @@ export default function Articles() {
                 <div className="border-bottom">
                     <p className="mt-3 py-3">{articles[articleId].description}</p>
                 </div>
+                <div className="d-flex flex-column flex-lg-row gap-3 mt-2 py-3">
+                    {articles[articleId].resoluciones &&
+                        (
+                            articles[articleId].resoluciones.map((resoluciones) => (
+                                <button key={resoluciones.Id} className="btn btn-primary text-start">{resoluciones.num}</button>
+                            ))
+                        )
+                    }
+                </div>
                 <Link to={"/novedades"} className="btn btn-outline-info mt-3 py-2">Volver al listado</Link>
             </div>
             <div className="mt-3 bg-body-secondary py-3">

@@ -15,7 +15,17 @@
         "subtitle": "Abarca a ingenios de azúcar y la comercialización de ganado vacuno",
         "category": "Trámites",
         "date": "21/08/2024",
-        "description": "En el marco de implementación de políticas de simplificación y desburocratización de los trámites llevada a cabo por el Gobierno nacional, la Administración Federal de Ingresos Públicos (AFIP) derogó obligaciones vigentes para los ingenios de azúcar, al tiempo que actualizó la normativa relacionada con la comercialización de ganado vacuno..."
+        "description": "En el marco de implementación de políticas de simplificación y desburocratización de los trámites llevada a cabo por el Gobierno nacional, la Administración Federal de Ingresos Públicos (AFIP) derogó obligaciones vigentes para los ingenios de azúcar, al tiempo que actualizó la normativa relacionada con la comercialización de ganado vacuno...",
+        "resoluciones": [
+            {
+                "Id": 1,
+                "num": "Resolución General 5552/2024"
+            },
+            {
+                "Id": 2,
+                "num": "Resolución General 5553/2024"
+            }
+        ]
     },
     {
         "Id": 2,
@@ -24,7 +34,13 @@
         "subtitle": "Se suprimió el Registro de Exportadores de Carbón Vegetal (RECAR)",
         "category": "Exportaciones",
         "date": "20/08/2024",
-        "description": "En el marco de implementación de políticas de simplificación y desburocratización de los trámites llevada a cabo por el Gobierno nacional, la Administración Federal de Ingresos Públicos (AFIP) eliminó la obligación para los exportadores de carbón vegetal de inscribirse en un registro para vender esa mercadería al exterior. La medida permite avanzar con la mejora de la calidad del servicio otorgado a los contribuyentes y a usuarios aduaneros, al tiempo que mantiene vigentes los controles actuales sobre los envíos de ese producto, sumamente sensibles en cuestiones de seguridad relacionadas con el narcotráfico...."
+        "description": "En el marco de implementación de políticas de simplificación y desburocratización de los trámites llevada a cabo por el Gobierno nacional, la Administración Federal de Ingresos Públicos (AFIP) eliminó la obligación para los exportadores de carbón vegetal de inscribirse en un registro para vender esa mercadería al exterior. La medida permite avanzar con la mejora de la calidad del servicio otorgado a los contribuyentes y a usuarios aduaneros, al tiempo que mantiene vigentes los controles actuales sobre los envíos de ese producto, sumamente sensibles en cuestiones de seguridad relacionadas con el narcotráfico....",
+        "resoluciones": [
+            {
+                "Id": 1,
+                "num": "Resolución General 5551/2024"
+            }
+        ]
     },
     {
         "Id": 3,
@@ -60,7 +76,13 @@
         "subtitle": "En septiembre, los monotributistas sociales que sean beneficiarios de planes sociales deben reempadronarse.",
         "category": "Monotributo",
         "date": "02/09/2024",
-        "description": "El Ministerio de Capital Humano anunció que los beneficiarios del Monotributo Social que se encuentran incluidos en los programas Acompañamiento Social, Volver al Trabajo y Microcrédito, deberán reempadronarse durante el mes de septiembre. Además, a partir de octubre comenzarán a pagar el 50 por ciento del costo de su obra social..."
+        "description": "El Ministerio de Capital Humano anunció que los beneficiarios del Monotributo Social que se encuentran incluidos en los programas Acompañamiento Social, Volver al Trabajo y Microcrédito, deberán reempadronarse durante el mes de septiembre. Además, a partir de octubre comenzarán a pagar el 50 por ciento del costo de su obra social...",
+        "resoluciones": [
+            {
+                "Id": 1,
+                "num": "Monotributo Social: Reempadronamiento"
+            }
+        ]
     },
     {
         "Id": 7,
